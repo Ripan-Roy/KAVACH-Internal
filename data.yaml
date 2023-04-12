@@ -1,0 +1,13 @@
+train: C:\Users\tauqu\Downloads\violence\train\images
+val: C:\Users\tauqu\Downloads\violence\valid\images
+test: C:\Users\tauqu\Downloads\violence\test\images
+
+nc: 2
+names: ["NonViolence", "Violence"]
+
+roboflow:
+  workspace: aibuilder
+  project: violence-detection-s9acq
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/aibuilder/violence-detection-s9acq/dataset/1
